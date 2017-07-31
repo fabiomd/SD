@@ -11,12 +11,12 @@ import java.util.ArrayList;
  *
  * @author Fabio
  */
-public class client {
+public class data {
     
     private ArrayList<movie> movies;
     private ArrayList<user> users;
     
-    public client(){
+    public data(){
         this.movies = new ArrayList<movie>();
         this.users = new ArrayList<user>();
     }
