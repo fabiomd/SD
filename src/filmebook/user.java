@@ -9,7 +9,7 @@ package filmebook;
  *
  * @author Fabio
  */
-public class user {
+public class user extends data{
     
     private String CPF;
     

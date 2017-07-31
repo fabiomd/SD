@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Fabio
  */
-public class movie {
+public class movie extends data{
     
     private String title;
     private String description;
