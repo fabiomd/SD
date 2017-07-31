@@ -16,6 +16,14 @@ public class filmeBook {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        client c1 = new client();
+        
+        c1.addMovie(new movie("Harry Potter","Menino vira bruxo"));
+        c1.addUser(new user("123456789"));
+        
+        movie temp = c1.getMovies().get(0);
+        temp.addWatchedByUser(c1.getUsers().get(0), 10f);
     }
     
 }

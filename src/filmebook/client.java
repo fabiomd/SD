@@ -21,6 +21,22 @@ public class client {
         this.users = new ArrayList<user>();
     }
     
+    public ArrayList<movie> getMovies(){
+        return this.movies;
+    }
+    
+    public ArrayList<user> getUsers(){
+        return this.users;
+    }
+    
+    public void addMovie(movie movie){
+        this.movies.add(movie);
+    }
+    
+    public void addUser(user user){
+        this.users.add(user);
+    }
+    
     public ArrayList<movie> allWatched(ArrayList<user> usersGroup){
         
         ArrayList<movie> moviesInCommon = new ArrayList<movie>();

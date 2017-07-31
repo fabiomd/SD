@@ -42,4 +42,8 @@ public class movie {
     public watched getWatched(){
         return this.watched;
     }
+    
+    public void addWatchedByUser(user user, Float grade){
+        this.watched.addWatched(user, grade);
+    }
 }
