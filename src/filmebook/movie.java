@@ -46,4 +46,8 @@ public class movie extends data{
     public void addWatchedByUser(user user, Float grade){
         this.watched.addWatched(user, grade);
     }
+    
+    public Boolean watchByUser(user user){
+        return this.watched.watchedByUser(user);
+    }
 }
